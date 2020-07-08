@@ -84,7 +84,7 @@ UIApplicationDelegate与UNUserNotificationCenterDelegate
     } else {
         dispatch_async(dispatch_get_main_queue(), ^{
             [[UIApplication sharedApplication] registerUserNotificationSettings:[UIUserNotificationSettings settingsForTypes:(UIUserNotificationTypeSound |    UIUserNotificationTypeAlert | UIUserNotificationTypeBadge) categories:nil]];
-            [[UIApplication sharedApplication] registerForRemoteNotifications];
+            [[UIApplication sharedApplication] registerForRemoteNotifications]; 
         });
     }
 }
@@ -162,7 +162,6 @@ UIApplicationDelegate与UNUserNotificationCenterDelegate
 
     NSLog(@"User Info : %@",response.notification.request.content.userInfo);
     completionHandler();
-    [self checkUserInfo:response.notification.request.content.userInfo];
 }
 ```
 
