@@ -1,6 +1,6 @@
 # Table of contents
 
-* [技术总结文档](README.md)
+* [翻墙技术与实践](README.md)
 
 ## 翻墙
 
