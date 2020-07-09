@@ -1,5 +1,9 @@
 # shadowsocks-libev部署文档 \(Snap\)
 
+System: CentOS 8
+
+Shadowsocks-libev version: 3.3.4
+
 ## 安装和启用EPEL Repository
 
 ```text
