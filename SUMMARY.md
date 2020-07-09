@@ -9,6 +9,7 @@
 * [Shadowsocks](fan-qiang/shadowsocks/README.md)
   * [shadowsocks-libev部署傻瓜式文档\(2017-4-2 更新,版本3.1.3\)](fan-qiang/shadowsocks/untitled.md)
   * [shadowsocks-libev部署文档 2020-7-9](fan-qiang/shadowsocks/shadowsockslibev-bu-shu-wen-dang-202079.md)
+  * [shadowsocks-libev部署文档 \(Snap\)](fan-qiang/shadowsocks/shadowsockslibev-bu-shu-wen-dang-snap.md)
 * [V2ray](fan-qiang/v2ray.md)
 
 ## iOS

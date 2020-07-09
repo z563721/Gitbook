@@ -82,7 +82,7 @@ chmod +x /etc/init.d/shadowsocks-libev
 
 ## 设置
 
-### 设置服务参数
+### 软件参数
 
 * 新建文件
 
@@ -97,7 +97,7 @@ chmod +x /etc/init.d/shadowsocks-libev
   "server": "0.0.0.0",
   "nameserver": "8.8.8.8",
   "server_port": 8888,
-  "password": “cptbtptpbcptdtptp”,
+  "password": "mypassword",
   "method": "aes-256-gcm",
   "timeout": 600,
   "no_delay": true,
@@ -109,7 +109,7 @@ chmod +x /etc/init.d/shadowsocks-libev
 
 
 
-### 设置启动服务
+### service单元配置
 
 新建shadowsocks的service单元配置文件： 
 
@@ -117,7 +117,7 @@ chmod +x /etc/init.d/shadowsocks-libev
 vim /lib/systemd/system/shadowsocks-libev.service
 ```
 
- 输入:（PS：如果服务端口数值小于1024，把nobody改为root。） \[Unit\] Description=Shadowsocks service After=network.target
+ 输入:
 
 ```text
 [Unit]
@@ -137,6 +137,7 @@ WantedBy=multi-user.target
 运行shadowsocks服务并设置为开机自启：
 
 ```text
+systemctl daemon-reload
 systemctl start ss-server.service
 systemctl enable ss-server.service
 ```
