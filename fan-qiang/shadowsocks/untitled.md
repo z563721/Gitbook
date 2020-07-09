@@ -1,8 +1,12 @@
+---
+description: 已失效，新版本使用snap部署
+---
+
 # shadowsocks-libev部署傻瓜式文档\(2017-4-2 更新,版本3.1.3\)
 
 
 
-System: CentOS 7 1、通过ssh连接上服务器：（PS：ip是VPS提供给你的ip，password同）
+System: CentOS 7.1、通过ssh连接上服务器：（PS：ip是VPS提供给你的ip，password同）
 
 * 输入 ssh root@ip
 * 输入网站上的password
