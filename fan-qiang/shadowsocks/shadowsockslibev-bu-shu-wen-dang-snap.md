@@ -4,6 +4,8 @@ System: CentOS 8
 
 Shadowsocks-libev version: 3.3.4
 
+Github: [https://github.com/shadowsocks/shadowsocks-libev](https://github.com/shadowsocks/shadowsocks-libev)
+
 ## 安装和启用EPEL Repository
 
 ```text
