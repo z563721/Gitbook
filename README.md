@@ -55,5 +55,9 @@ Github链接：[https://github.com/XX-net/XX-Net/](https://github.com/XX-net/XX-
 
 ### Shadowsocks
 
-Shadowsocks是一项加密通讯协议，其数据包的内容被设计得（应）不包含任何固定特征。通过Socket 5进行
+Shadowsocks是一项加密通讯协议，其数据包的内容被设计得（应）不包含任何固定特征。通过Socket 5协议使用双方约定好的密码加密进行通讯，支持多种加密方式。
+
+
+
+### V2ray
 
