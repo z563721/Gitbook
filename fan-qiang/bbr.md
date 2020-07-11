@@ -1,6 +1,8 @@
 # BBR
 
-因为我使用的是Centos 8，不需要升级内核直接改配置就可以了
+System: Centos 8
+
+在Centos 8中，内核本身已经支持BBR加速，只需要去设置开启即可
 
 ```text
 echo "net.core.default_qdisc=fq" >> /etc/sysctl.conf

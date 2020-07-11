@@ -6,6 +6,8 @@ Shadowsocks-libev version: 3.3.4
 
 Github: [https://github.com/shadowsocks/shadowsocks-libev](https://github.com/shadowsocks/shadowsocks-libev)
 
+这篇文档是使用snap进行安装Shadowsocks的教程
+
 ## 安装和启用EPEL Repository
 
 ```text
@@ -84,7 +86,7 @@ vim /snap/bin/config.json
 vim /lib/systemd/system/ss.service
 ```
 
-插入内容
+输入内容
 
 ```text
 [Unit]
