@@ -94,7 +94,7 @@ Description=Shadowsocks Server
 After=network.target
 
 [Service]
-ExecStart=/usr/bin/ss-server -c /etc/shadowsocks-libev/config.json -u
+ExecStart=/snap/bin/shadowsocks-libev.ss-server -c /snap/bin/config.json -u
 Restart=on-abort
 
 [Install]
